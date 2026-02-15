@@ -1,8 +1,0 @@
-event_name,trigger,properties,owner,kpi_mapping
-session_start,User lands/opens app,"device, referrer, campaign",Analytics,DAU/MAU
-signup,User completes signup,"method, channel",Growth,Activation
-product_view,User views a product,"product_id, category",Product,Funnel
-add_to_cart,Adds item to cart,"product_id, qty, price",Product,Cart rate
-checkout_start,Begins checkout,"cart_value, shipping_method",Product,Checkout rate
-purchase,Completes order,"order_id, revenue, payment_method",Finance,Revenue
-feature_used,Uses target feature,"feature_name, context",PM,Adoption
