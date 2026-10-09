@@ -1,0 +1,5 @@
+sample_status,rollout_stage,eligible_users,exposed_users,primary_event_users,primary_rate,guardrail_events,decision
+SYNTHETIC EXAMPLE - NOT PRODUCTION,internal,200,20,5,0.25,0,not evaluated — synthetic
+SYNTHETIC EXAMPLE - NOT PRODUCTION,pilot_1pct,20000,200,44,0.22,4,not evaluated — synthetic
+SYNTHETIC EXAMPLE - NOT PRODUCTION,pilot_5pct,20000,1000,263,0.263,19,not evaluated — synthetic
+SYNTHETIC EXAMPLE - NOT PRODUCTION,pilot_20pct,20000,4000,1084,0.271,80,not evaluated — synthetic
