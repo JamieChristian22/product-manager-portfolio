@@ -1,0 +1,95 @@
+{
+  "disclaimer": "SYNTHETIC practice data. Not actual participants, interviews, testing or customer feedback.",
+  "project": "Ecommerce Conversion Optimization",
+  "feature": "Product listing discovery refresh",
+  "observations": [
+    {
+      "participant_id": "SYN-01",
+      "segment": "mobile new shopper",
+      "task_id": 1,
+      "completion": "with_help",
+      "time_seconds": 78,
+      "ease_score": 3,
+      "issue_code": "DISCOVERY",
+      "severity": "High",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-02",
+      "segment": "returning desktop shopper",
+      "task_id": 2,
+      "completion": "yes",
+      "time_seconds": 99,
+      "ease_score": 5,
+      "issue_code": "COPY",
+      "severity": "Medium",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-03",
+      "segment": "price-sensitive shopper",
+      "task_id": 3,
+      "completion": "yes",
+      "time_seconds": 120,
+      "ease_score": 6,
+      "issue_code": "NAV",
+      "severity": "Low",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-04",
+      "segment": "mobile new shopper",
+      "task_id": 1,
+      "completion": "no",
+      "time_seconds": 144,
+      "ease_score": 2,
+      "issue_code": "ERROR",
+      "severity": "Medium",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-05",
+      "segment": "returning desktop shopper",
+      "task_id": 2,
+      "completion": "yes",
+      "time_seconds": 166,
+      "ease_score": 4,
+      "issue_code": "DISCOVERY",
+      "severity": "High",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-06",
+      "segment": "price-sensitive shopper",
+      "task_id": 3,
+      "completion": "yes",
+      "time_seconds": 187,
+      "ease_score": 6,
+      "issue_code": "NAV",
+      "severity": "Low",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-07",
+      "segment": "mobile new shopper",
+      "task_id": 1,
+      "completion": "yes",
+      "time_seconds": 216,
+      "ease_score": 5,
+      "issue_code": "COPY",
+      "severity": "Medium",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-08",
+      "segment": "returning desktop shopper",
+      "task_id": 2,
+      "completion": "with_help",
+      "time_seconds": 241,
+      "ease_score": 4,
+      "issue_code": "ERROR",
+      "severity": "Low",
+      "synthetic": true
+    }
+  ]
+}
