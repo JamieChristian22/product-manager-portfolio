@@ -1,0 +1,95 @@
+{
+  "disclaimer": "SYNTHETIC practice data. Not actual participants, interviews, testing or customer feedback.",
+  "project": "Feature Adoption Intelligence",
+  "feature": "Guided feature discovery and contextual education",
+  "observations": [
+    {
+      "participant_id": "SYN-01",
+      "segment": "new user",
+      "task_id": 1,
+      "completion": "with_help",
+      "time_seconds": 74,
+      "ease_score": 3,
+      "issue_code": "DISCOVERY",
+      "severity": "High",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-02",
+      "segment": "low-frequency active user",
+      "task_id": 2,
+      "completion": "yes",
+      "time_seconds": 94,
+      "ease_score": 5,
+      "issue_code": "COPY",
+      "severity": "Medium",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-03",
+      "segment": "power user",
+      "task_id": 3,
+      "completion": "yes",
+      "time_seconds": 116,
+      "ease_score": 6,
+      "issue_code": "NAV",
+      "severity": "Low",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-04",
+      "segment": "new user",
+      "task_id": 1,
+      "completion": "no",
+      "time_seconds": 142,
+      "ease_score": 2,
+      "issue_code": "ERROR",
+      "severity": "Medium",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-05",
+      "segment": "low-frequency active user",
+      "task_id": 2,
+      "completion": "yes",
+      "time_seconds": 168,
+      "ease_score": 4,
+      "issue_code": "DISCOVERY",
+      "severity": "High",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-06",
+      "segment": "power user",
+      "task_id": 3,
+      "completion": "yes",
+      "time_seconds": 191,
+      "ease_score": 6,
+      "issue_code": "NAV",
+      "severity": "Low",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-07",
+      "segment": "new user",
+      "task_id": 1,
+      "completion": "yes",
+      "time_seconds": 212,
+      "ease_score": 5,
+      "issue_code": "COPY",
+      "severity": "Medium",
+      "synthetic": true
+    },
+    {
+      "participant_id": "SYN-08",
+      "segment": "low-frequency active user",
+      "task_id": 2,
+      "completion": "with_help",
+      "time_seconds": 239,
+      "ease_score": 4,
+      "issue_code": "ERROR",
+      "severity": "Low",
+      "synthetic": true
+    }
+  ]
+}
