@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PM Decision Lab | Portfolio</title>
+<style>body{font:16px system-ui;background:#0b1220;color:#e8eef8;margin:0}main{max-width:850px;margin:auto;padding:32px}section{background:#172438;padding:24px;border-radius:14px;margin:18px 0}label{display:block;margin:12px 0}input{font:inherit;padding:8px;width:130px;background:#fff;color:#111;border:2px solid #8898ad;border-radius:5px}a{color:#82d7ef}.stats{display:flex;gap:16px;flex-wrap:wrap}.stats div{background:#263b53;padding:15px;border-radius:8px}small{color:#c5d4e4}</style></head>
+<body><main><h1>PM Decision Lab</h1><p>Interactive, synthetic ecommerce A/B scenario — not a real experiment.</p>
+<section><h2>Experiment inputs</h2><p>Change counts to explore product metrics. Purchases must not exceed eligible sessions.</p>
+<label for="cs">Control eligible sessions <input id="cs" type="number" min="1" value="1000"></label>
+<label for="cp">Control purchases <input id="cp" type="number" min="0" value="100"></label>
+<label for="ts">Treatment eligible sessions <input id="ts" type="number" min="1" value="1000"></label>
+<label for="tp">Treatment purchases <input id="tp" type="number" min="0" value="115"></label>
+<p id="error" role="alert"></p><div class="stats" aria-live="polite"><div>Control: <strong id="cr"></strong></div><div>Treatment: <strong id="tr"></strong></div><div>Relative lift: <strong id="lift"></strong></div></div>
+<p><small>Directional arithmetic only. No confidence interval, significance test, SRM check, or guardrail validation is included.</small></p></section>
+<section><h2>Product roadmap</h2><p><strong>Now:</strong> Validate event tracking and eligibility definitions.</p><p><strong>Next:</strong> Pre-register experiment and guardrails; estimate sample size.</p><p><strong>Later:</strong> Review results, qualitative feedback, rollout and rollback readiness.</p></section>
+<p><a href="../PM_SHOWCASE.md">Methodology and KPI definitions</a> · <a href="../README.md">Portfolio README</a></p></main>
+<script>
+const ids=['cs','cp','ts','tp'];const el=id=>document.getElementById(id);
+function update(){const [cs,cp,ts,tp]=ids.map(id=>Number(el(id).value));const valid=ids.every(id=>el(id).value.trim()!==''&&Number.isInteger(Number(el(id).value)))&&cs>0&&ts>0&&cp>=0&&tp>=0&&cp<=cs&&tp<=ts;
+el('error').textContent=valid?'':'Enter valid whole-number counts with purchases no greater than sessions.';
+if(!valid){['cr','tr','lift'].forEach(id=>el(id).textContent='—');return;}
+const c=cp/cs,t=tp/ts;el('cr').textContent=(100*c).toFixed(2)+'%';el('tr').textContent=(100*t).toFixed(2)+'%';el('lift').textContent=c===0?'Undefined (zero baseline)':((t/c-1)*100).toFixed(2)+'%';}
+ids.forEach(id=>el(id).addEventListener('input',update));update();
+</script></body></html>
