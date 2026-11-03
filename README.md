@@ -79,3 +79,7 @@ Earlier summaries of these case studies cited example impacts such as **+12% con
 - [GitHub profile](https://github.com/JamieChristian22) · [Product Owner portfolio](https://github.com/JamieChristian22/product-owner-portfolio)
 - [LinkedIn](https://www.linkedin.com/in/jamiechristian2/) · [Email](mailto:Jamiechristian331@gmail.com)
 - [Support independent project development](https://github.com/sponsors/JamieChristian22)
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
