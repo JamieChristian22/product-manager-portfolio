@@ -83,3 +83,7 @@ Earlier summaries of these case studies cited example impacts such as **+12% con
 ## License and third-party materials
 
 See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
+
+## Reviewer guide and asset provenance
+
+Use [REVIEWER_GUIDE.md](REVIEWER_GUIDE.md) for verified file-path navigation and an explicit checklist for data/media origin and licensing. The candidate list does not prove ownership or redistribution rights.
